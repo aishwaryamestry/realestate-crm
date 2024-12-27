@@ -1,0 +1,267 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "tenant",
+      "password": "tenant",
+      "role": "tenant"
+    }
+  ],
+  "properties": [
+    {
+      "id": "1",
+      "name": "Greenwood Apartments",
+      "type": "Apartment",
+      "location": "456 Park Avenue, NEW YORK",
+      "price": 1200,
+      "status": "Rent",
+      "reviews": 24,
+      "views": 1234,
+      "img": "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "bedroom": 2,
+      "bathroom": 1,
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    },
+    {
+      "id": "2",
+      "name": "Lakeside Villas",
+      "type": "Villa",
+      "location": "789 Oxford Street, London",
+      "price": 3200,
+      "status": "Sale",
+      "reviews": 10,
+      "views": 876,
+      "img": "https://images.pexels.com/photos/1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "bedroom": 3,
+      "bathroom": 2,
+      "latitude": 52.4862,
+      "longitude": -1.8904
+    },
+    {
+      "id": "3",
+      "name": "Sunnyvale Cottage",
+      "type": "Cottage",
+      "location": "101 Baker Street,USA",
+      "price": 2500,
+      "status": "Lease",
+      "reviews": 18,
+      "views": 654,
+      "img": "https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "bedroom": 1,
+      "bathroom": 1,
+      "latitude": 30.2672,
+      "longitude": -97.7431
+    },
+    {
+      "id": "4",
+      "name": "Downtown Loft",
+      "type": "Loft",
+      "location": "234 Kingsway, London",
+      "price": 4500,
+      "status": "Rent",
+      "reviews": 35,
+      "views": 2201,
+      "img": "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "bedroom": 2,
+      "bathroom": 1,
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    {
+      "id": "5",
+      "name": "Apartment 5",
+      "type": "Loft",
+      "status": "Rent",
+      "reviews": 35,
+      "views": 2201,
+      "img": "https://images.pexels.com/photos/276625/pexels-photo-276625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "bedroom": 3,
+      "bathroom": 2,
+      "price": 1500,
+      "location": "567 Victoria Road, London",
+      "latitude": 53.4084,
+      "longitude": -2.9916
+    },
+    {
+      "id": "6",
+      "name": "Apartment 6",
+      "type": "Villa",
+      "status": "Rent",
+      "reviews": 35,
+      "views": 2201,
+      "img": "https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "bedroom": 1,
+      "bathroom": 1,
+      "price": 800,
+      "location": "890 Regent Street,USA",
+      "latitude": 54.9783,
+      "longitude": -1.6174
+    },
+    {
+      "id": "7",
+      "name": "Apartment 7",
+      "type": "Loft",
+      "status": "Rent",
+      "reviews": 35,
+      "views": 2201,
+      "img": "https://images.pexels.com/photos/2029667/pexels-photo-2029667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "bedroom": 2,
+      "bathroom": 1,
+      "price": 1000,
+      "location": "112 Piccadilly,NEW YORK",
+      "latitude": 53.3811,
+      "longitude": -1.4701
+    },
+    {
+      "id": "8",
+      "name": "Apartment 8",
+      "type": "Loft",
+      "status": "Rent",
+      "reviews": 35,
+      "views": 2201,
+      "img": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "bedroom": 3,
+      "bathroom": 2,
+      "price": 1500,
+      "location": "8765 Main High Street, London",
+      "latitude": 51.4545,
+      "longitude": -2.5879
+    }
+  ],
+  "tenants": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890",
+      "moveInDate": "2023-01-15",
+      "rent": 1500,
+      "role": "Customer",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "987-654-3210",
+      "moveInDate": "2022-11-01",
+      "rent": 12000,
+      "role": "Owner",
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "name": "Mark Johnson",
+      "email": "mark.johnson@example.com",
+      "phone": "555-123-4567",
+      "moveInDate": "2023-03-10",
+      "rent": 19000,
+      "role": "Customer",
+      "status": "InActive"
+    },
+    {
+      "id": "4",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "555-123-4567",
+      "moveInDate": "2023-03-10",
+      "rent": 16000,
+      "role": "Owner",
+      "status": "Active"
+    },
+    {
+      "id": "5",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "555-123-4567",
+      "moveInDate": "2023-03-10",
+      "rent": 18000,
+      "role": "Owner",
+      "status": "Active"
+    },
+    {
+      "id": "6",
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "phone": "555-123-4567",
+      "moveInDate": "2023-03-10",
+      "rent": 30000,
+      "role": "Customer",
+      "status": "Inactive"
+    },
+    {
+      "id": "7",
+      "name": "Alice Brown",
+      "email": "alice@example.com",
+      "phone": "555-123-4567",
+      "moveInDate": "2023-03-10",
+      "rent": 15000,
+      "role": "Customer",
+      "status": "Active"
+    },
+    {
+      "id": "8",
+      "name": "Charlie Wilson",
+      "email": "charlie@example.com",
+      "phone": "555-123-4567",
+      "moveInDate": "2023-03-10",
+      "rent": 18000,
+      "role": "Owner",
+      "status": "Active"
+    },
+    {
+      "id": "f8ed",
+      "name": "ash",
+      "email": "neha@gmail.com",
+      "property": "asdasd",
+      "imageUrl": null
+    }
+  ],
+  "payments": [
+    {
+      "id": "1",
+      "date": "2023-10-01",
+      "tenantName": "John Doe",
+      "amount": 1500,
+      "method": "Credit Card",
+      "status": "Completed"
+    },
+    {
+      "id": "2",
+      "date": "2023-11-15",
+      "tenantName": "Jane Smith",
+      "amount": 2000,
+      "method": "Bank Transfer",
+      "status": "Pending"
+    },
+    {
+      "id": "3",
+      "date": "2023-09-10",
+      "tenantName": "Mark Johnson",
+      "amount": 1800,
+      "method": "PayPal",
+      "status": "Completed"
+    }
+  ],
+  "maintenance": [
+    {
+      "id": "1",
+      "description": "Leaking faucet in kitchen",
+      "property": "Apartment 101",
+      "status": "Pending"
+    },
+    {
+      "id": "2",
+      "description": "Broken window in bedroom",
+      "property": "House 202",
+      "status": "In Progress"
+    }
+  ]
+}
