@@ -1,3 +1,74 @@
+# Deployed on Vercel live link to the hosted web application :
+
+https://realestate-crm-theta.vercel.app/
+
+Login Details:
+
+# Admin login:
+
+    username - admin
+    password - admin
+    role- admin
+
+# Tenant login:
+
+    username - tenant
+    password - tenant
+    role- tenant
+
+# Prerequisites
+
+Make sure you have the following installed on your machine:
+
+> > Node.js: Version 14 or higher
+> > npm or yarn: For managing dependencies
+
+# Setup and Installation
+
+Follow these steps to set up the project locally:
+
+1. Clone the Repository
+   git clone https://github.com/aishwaryamestry/realestate-crm.git
+2. Install Dependencies
+   This project uses npm (or yarn) for package management. Install all necessary dependencies by running:
+
+   > > npm install
+
+   This will install the following dependencies as defined in your package.json:
+
+   > > React and related libraries.
+   > > Tailwind CSS for styling.
+   > > Axios for making API requests.
+   > > React Router DOM for routing.
+   > > Framer Motion for animations.
+   > > JSON Server for the mock backend.
+
+3. Start the Application
+   You do not need to run or install JSON Server separately.
+   It is already included in the project and will be started automatically with the following command:
+
+   > > npm start
+
+   # or
+
+   > > yarn start
+
+   This command uses Concurrently to run two processes in parallel:
+
+   # Starts the React app on http://localhost:3000.
+
+   # Starts JSON Server on http://localhost:5000, which will serve the mock API data from db.json.
+
+   Endpoints:
+   http://localhost:5000/users
+   http://localhost:5000/properties
+   http://localhost:5000/tenants
+   http://localhost:5000/payments
+   http://localhost:5000/maintenance
+
+4. Open the Application
+   Once the app is running, you can open your browser and visit http://localhost:3000 to access the application.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -86,70 +157,3 @@ Endpoints:
     Mobile: Compact layout with collapsible elements and stacked content.
 
 # API Error Handling: The app uses Axios interceptors to handle API errors gracefully and display toast notifications in case of failed requests.
-
-# Prerequisites
-
-Make sure you have the following installed on your machine:
-
-> > Node.js: Version 14 or higher
-> > npm or yarn: For managing dependencies
-
-# Setup and Installation
-
-Follow these steps to set up the project locally:
-
-1. Clone the Repository
-   git clone https://github.com/aishwaryamestry/realestate-crm.git
-2. Install Dependencies
-   This project uses npm (or yarn) for package management. Install all necessary dependencies by running:
-
-   > > npm install
-
-   This will install the following dependencies as defined in your package.json:
-
-   > > React and related libraries.
-   > > Tailwind CSS for styling.
-   > > Axios for making API requests.
-   > > React Router DOM for routing.
-   > > Framer Motion for animations.
-   > > JSON Server for the mock backend.
-
-3. Start the Application
-   You do not need to run or install JSON Server separately.
-   It is already included in the project and will be started automatically with the following command:
-
-   > > npm start
-
-   # or
-
-   > > yarn start
-
-   This command uses Concurrently to run two processes in parallel:
-
-   # Starts the React app on http://localhost:3000.
-
-   # Starts JSON Server on http://localhost:5000, which will serve the mock API data from db.json.
-
-   Endpoints:
-   http://localhost:5000/users
-   http://localhost:5000/properties
-   http://localhost:5000/tenants
-   http://localhost:5000/payments
-   http://localhost:5000/maintenance
-
-4. Open the Application
-   Once the app is running, you can open your browser and visit http://localhost:3000 to access the application.
-
-5. Login Details:
-
-# Admin login:
-
-    username - admin
-    password - admin
-    role- admin
-
-# Tenant login:
-
-    username - tenant
-    password - tenant
-    role- tenant
